@@ -49,6 +49,20 @@ Install it locally:
 3. Click "Load unpacked".
 4. Select the `chrome-table-exporter` folder.
 
+### Deployment Env Checker
+
+Location: `deployment-env-checker/`
+
+A Python script that checks whether required deployment environment variables are present before a build or deploy step.
+
+Run it:
+
+```bash
+cd deployment-env-checker
+python3 check_env.py required-env.txt sample.env
+python3 check_env.py required-env.txt sample-complete.env
+```
+
 ## Services These Demos Support
 
 These examples map to small, scoped tasks that are easy to verify:
@@ -66,4 +80,3 @@ For each task, I aim to provide:
 - A small patch or script.
 - Clear verification steps.
 - Notes for anything that requires the client's private environment.
-
