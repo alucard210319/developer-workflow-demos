@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Table Exporter",
+  "version": "0.1.0",
+  "description": "Export the first HTML table on a page as CSV.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Export table"
+  }
+}
+

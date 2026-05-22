@@ -1,0 +1,7 @@
+Run npm ci
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^18.0.0" from example-package@1.2.3
+Error: Process completed with exit code 1.
+

@@ -1,0 +1,4 @@
+name,email,company,reject_reason
+Duplicate Alice,alice@example.com,Example Co,duplicate
+No Email,,Missing LLC,missing email
+Bad Email,not-an-email,Broken Inc,invalid email

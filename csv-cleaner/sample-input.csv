@@ -1,0 +1,7 @@
+Name, Email, Company
+ Alice , alice@example.com , Example Co
+Bob,bob@example.com, Example Co
+Duplicate Alice, alice@example.com, Example Co
+No Email,, Missing LLC
+Bad Email, not-an-email, Broken Inc
+
